@@ -44,24 +44,24 @@ void readImage(char filename[], int image[590][590], int &col, int &row, int &ma
     myImage >> col;
     myImage >> row;
     myImage >> maxVal;
-    // CHECK that the values were read
-    cout << "p_val is " << p_val << endl;
-    cout << "col is: " << col << endl;
-    cout << "row is: " << row << endl;
-    cout << "maxVal is: " << maxVal << endl;
-    // CHECK the array, display it
-    cout << endl;
+//    // CHECK that the values were read
+//    cout << "p_val is " << p_val << endl;
+//    cout << "col is: " << col << endl;
+//    cout << "row is: " << row << endl;
+//    cout << "maxVal is: " << maxVal << endl;
+//    // CHECK the array, display it
+//    cout << endl;
     
 //    cout <<"this is our original array" <<endl;
     for (int i = 0; i < row; i++) {
       for (int j = 0; j < col; j++) {
         myImage >> image[i][j];
-        cout<< image[i][j] << "  ";
+//        cout<< image[i][j] << "  ";
       }
       //myImage << "\n";
-      cout << endl;
+//      cout << endl;
     }
-    cout << endl;
+//    cout << endl;
     
     myImage.close();
 }
@@ -133,9 +133,9 @@ void sumArray(int image[590][590], int sum[590][590], int row, int col, int temp
       //display our new sum[][]
       for (int i = 0; i < row; i++) {
         for (int j = 0; j < col; j++) {
-          cout << sum[i][j] << "  ";
+//          cout << sum[i][j] << "  ";
         }
-        cout << endl;
+//        cout << endl;
       }
   }
 
@@ -149,12 +149,7 @@ void averageArray(int sum[590][590], double avg[590][590], int col, int row) {
     }
   }
     
-    for (int i = 0; i < row; i++) {
-      for (int j = 0; j < col; j++) {
-        cout << avg[i][j] << "  ";
-      }
-      cout << endl;
-    }
+    
 }
 
 void pepperImage(int image[590][590], double avg[590][590], int pepper[590][590], int col, int row) {
@@ -175,13 +170,7 @@ void pepperImage(int image[590][590], double avg[590][590], int pepper[590][590]
       }
     }
   }
-    // STEP 3: Display the pepper array
-    for (int i = 0; i < row; i++) {
-      for (int j = 0; j < col; j++) {
-        cout << pepper[i][j] << "  ";
-      }
-      cout << endl;
-    }
+    
 }
 
 void saveImage(char filename[], int pepper[590][590], int col, int row, int maxVal, char p_val[]) {
@@ -222,11 +211,11 @@ int main() {
     //ask user for file name
 
     while (true) {
-        std::cout << "Enter the absolute file path for the image you want to pepper: ";
-        std::cin.getline(filename, sizeof(filename)); // reads whole line (handles spaces)
+        cout << "Enter the absolute file path for the image you want to pepper: ";
+        cin.getline(filename, sizeof(filename)); // reads whole line (handles spaces)
 
         // Remove surrounding quotes if user dragged a quoted path (e.g. "/Users/..../file name.pgm")
-        size_t len = std::strlen(filename);
+        size_t len = strlen(filename);
         if (len >= 2 && ((filename[0] == '"' && filename[len-1] == '"') ||
                          (filename[0] == '\'' && filename[len-1] == '\''))) {
             // shift left by 1 and terminate
@@ -234,12 +223,12 @@ int main() {
             filename[len - 2] = '\0';
         }
 
-        std::ifstream test(filename);
+        ifstream test(filename);
         if (test.is_open()) {
             test.close();
             break; // success — exit loop
         } else {
-            std::cerr << "Could not open file: " << filename << "\nPlease try again.\n";
+            cerr << "Could not open file: " << filename << "\nPlease try again.\n";
         }
     }
         
