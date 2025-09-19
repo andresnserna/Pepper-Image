@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2042245A-FD72-49AC-8874-551E48FC0D72"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DF954CA8-1B93-4DAD-B4A2-20DCA339EFAF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ASerna_HW1_1436/ASerna_HW1_1436.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "DF954CA8-1B93-4DAD-B4A2-20DCA339EFAF - 6803fde11f081e47"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sumArray(int (*) [700], int (*) [700], int, int)"
+                  moduleName = "ASerna_HW1_1436"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/COSC%201436/ASerna_HW1_1436/ASerna_HW1_1436/ASerna_HW1_1436.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "DF954CA8-1B93-4DAD-B4A2-20DCA339EFAF - 6803fde11f081e22"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sumArray(int (*) [700], int (*) [700], int, int)"
+                  moduleName = "ASerna_HW1_1436"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/COSC%201436/ASerna_HW1_1436/ASerna_HW1_1436/ASerna_HW1_1436.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C79E9C1B-8C84-409E-9315-68EE210252E8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ASerna_HW1_1436/ASerna_HW1_1436.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "202"
+            endingLineNumber = "202"
+            landmarkName = "main()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "C79E9C1B-8C84-409E-9315-68EE210252E8 - cc0cc7f1492d8441"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "ASerna_HW1_1436"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/COSC%201436/ASerna_HW1_1436/ASerna_HW1_1436/ASerna_HW1_1436.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "203"
+                  endingLineNumber = "203"
+                  offsetFromSymbolStart = "188">
+               </Location>
+               <Location
+                  uuid = "C79E9C1B-8C84-409E-9315-68EE210252E8 - cc0cc7f1492d8441"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "ASerna_HW1_1436"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/COSC%201436/ASerna_HW1_1436/ASerna_HW1_1436/ASerna_HW1_1436.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "203"
+                  endingLineNumber = "203"
+                  offsetFromSymbolStart = "160">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "69DF8E3E-966E-422E-A572-59C0696D9EA3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ASerna_HW1_1436/ASerna_HW1_1436.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "201"
+            endingLineNumber = "201"
+            landmarkName = "main()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "69DF8E3E-966E-422E-A572-59C0696D9EA3 - cc0cc7f1492d8441"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "ASerna_HW1_1436"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/COSC%201436/ASerna_HW1_1436/ASerna_HW1_1436/ASerna_HW1_1436.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "203"
+                  endingLineNumber = "203"
+                  offsetFromSymbolStart = "188">
+               </Location>
+               <Location
+                  uuid = "69DF8E3E-966E-422E-A572-59C0696D9EA3 - cc0cc7f1492d8441"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "ASerna_HW1_1436"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/COSC%201436/ASerna_HW1_1436/ASerna_HW1_1436/ASerna_HW1_1436.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "203"
+                  endingLineNumber = "203"
+                  offsetFromSymbolStart = "160">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "630FA7CA-E238-4307-8337-11B3B23D84D9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ASerna_HW1_1436/ASerna_HW1_1436.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "198"
+            endingLineNumber = "198"
+            landmarkName = "main()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "630FA7CA-E238-4307-8337-11B3B23D84D9 - cc0cc7f1492d84e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "ASerna_HW1_1436"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/COSC%201436/ASerna_HW1_1436/ASerna_HW1_1436/ASerna_HW1_1436.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "200"
+                  endingLineNumber = "200"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "630FA7CA-E238-4307-8337-11B3B23D84D9 - cc0cc7f1492d84e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "ASerna_HW1_1436"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/COSC%201436/ASerna_HW1_1436/ASerna_HW1_1436/ASerna_HW1_1436.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "200"
+                  endingLineNumber = "200"
+                  offsetFromSymbolStart = "152">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
